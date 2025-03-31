@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.nav-links li a:hover {
+  background-color: #ff8800;
+}
+
+/* Category Buttons */
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.category-btn {
+  background-color: #eee;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.category-btn.active {
+  background-color: #ff8800;
+  color: white;
+}
+
+/* Content Spacing */
+.content-container {
+  margin: 20px auto;
+  max-width: 1100px;
+}
+
+/* Product Cards */
+.grocery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.product-price {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Buttons */
+.add-to-cart {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-to-cart:hover {
+  background-color: #218838;
+}
+
+.disabled-btn {
+  background-color: #bbb;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: not-allowed;
+  border-radius: 5px;
+}
