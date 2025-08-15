@@ -20,9 +20,6 @@ This project allows customers to register, log in, browse grocery products, add 
 ---
 
 ## 🖼 Screenshots
-
-> *(Add your screenshots here — replace with actual image paths in your repo)*
-
 ![Home Page](assets/homepage.png)
 ![Product Page](assets/products.png)
 ![Cart Page](assets/cart.png)
