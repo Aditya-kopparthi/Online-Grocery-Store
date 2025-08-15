@@ -20,7 +20,8 @@ This project allows customers to register, log in, browse grocery products, add 
 ---
 
 ## 🖼 Screenshots
-![Home Page](Screenshot 2025-04-01 123030.png)
+![Home Page](Online-Grocery-Store
+/Screenshot 2025-04-01 123030.png)
 ![Product Page](assets/products.png)
 ![Cart Page](assets/cart.png)
 ![Checkout Page](assets/checkout.png)
